@@ -1,5 +1,4 @@
 
-  
 @import "reset.css";
 @import "animation.scss";
  :root{
@@ -12,3 +11,5 @@
  * {
     box-sizing: border-box;
   }
+
+  /**********  sign up form  */
