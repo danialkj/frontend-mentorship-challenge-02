@@ -1,0 +1,14 @@
+
+  
+@import "reset.css";
+@import "animation.scss";
+ :root{
+    --darkColor : #515151 ;
+    --lightColore : #fff ;
+    --midnightbBlueColor : #0a84a0;
+    --lightGreenColor: #01a3a4;
+
+ }
+ * {
+    box-sizing: border-box;
+  }
