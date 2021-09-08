@@ -11,5 +11,78 @@
  * {
     box-sizing: border-box;
   }
+h2{
+   text-align: center;
+}
+  /**********  section 1  */
+  #section-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    position: r;
+    width: max-content;
+    background-color:#E5EEF3;
+    border:none;
+    border-radius: 20px;
+    
+
+  }
+
 
   /**********  sign up form  */
+  #sign-up-form {
+     width: 100%;
+     padding: 1.2rem;
+
+  }
+
+input{
+
+   background-color: #fff;
+   border:none;
+   padding:10px;
+   border-radius: 10px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+#form-submit-btn{
+   margin: auto;
+   width: 100%;
+   padding:.5rem;
+   align-items: center;
+   color: #fff;
+   background-color: #3498DB;
+}
+
+.sign-up-form-input{
+   width: 49%;
+}
+
+
+.sign-up-form-radio{
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #fff;
+   padding: 5px;
+   margin:10px;
+   border-radius: 10px;
+}
+
+#radio-box-flex { 
+   display: flex;
+   align-items: center;
+}
+
+
+#l-name-label { 
+margin-left: 25%;
+}
+
+#form-terms{
+   width: 5%;
+}

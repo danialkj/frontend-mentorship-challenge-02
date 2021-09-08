@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,37 @@
     <title>Danial - parctis 02</title>
 </head>
 <body>
-    <h2>Sign Up ...</h2>
+    
     <main>
+        <h2>Sign Up ...</h2>
         <section id="section-1">
             <div id="sign-up-form">
                 <form>
 
-                    <label for="f-name">First Name</label><br>
-                    <input type="text" name="f-name" placeholder="your first name" class=""><br>
-                    <label for="l-name">last Name</label><br>
-                    <input type="text" name="l-name" placeholder="your last name" class=""><br>
+                    <label for="f-name">First Name</label>
+                    <label for="l-name" id="l-name-label">last Name</label><br>
+
+                    <input type="text" name="f-name" placeholder="your first name" class="sign-up-form-input">
+                    <input type="text" name="l-name" placeholder="your last name" class="sign-up-form-input"><br>
                     <label for="form-email">Email Address</label><br>
-                    <input type="email" name="form-email" placeholder="example@mail.com" class=""><br>
+                    <input type="email" name="form-email" placeholder="example@mail.com" ><br>
                     <label for="date-of-birth">Date Of Birth</label><br>
-                    <input type="date" name="date-of-birth" placeholder="DD/MM/YYYY" class=""><br>
+                    <input type="date" name="date-of-birth" placeholder="DD/MM/YYYY" ><br>
                     <label for="form-gender">Gender</label><br>
-                    <input type="radio" name="gender-male" >
-                    <label for="gender-male">Male</label><br>
-                    <input type="radio" name="gender-female" >
-                    <label for="gender-female">Female</label><br>
-                    <input type="checkbox" id="form-terms" name="form-terms" >
+                    <div id="radio-box-flex">
+                    <div class="sign-up-form-radio">
+                        
+                    <input type="radio" name="gender-male" class="sign-up-form-input" >
+                    <label for="gender-male">Male</label>
+</div>
+<div class="sign-up-form-radio">
+                    <input type="radio" name="gender-female" class="sign-up-form-input" >
+                    <label for="gender-female">Female</label>
+</div>
+</div>
+                    <input type="checkbox" id="form-terms" name="form-terms"  >
                     <label for="form-terms"> I accept the terms & conditions</label><br>
-                    <input type="submit" value="Creat Account">
+                    <input type="submit" value="Creat Account" id="form-submit-btn">
   
                 </form>
             </div>
