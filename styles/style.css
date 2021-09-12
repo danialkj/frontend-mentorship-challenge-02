@@ -1,6 +1,6 @@
 
 @import "reset.css";
-@import "animation.scss";
+
  :root{
     --darkColor : #515151 ;
     --lightColore : #fff ;
